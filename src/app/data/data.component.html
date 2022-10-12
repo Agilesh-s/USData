@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">NATION</th>
+                    <th scope="col">YEAR</th>
+                    <th scope="col">POPULATION</th>
+                    <th scope="col">SLUG NATION</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor = "let i of dataList.data">
+                    <td>{{i["ID Nation"]}}</td>
+                    <td>{{i.Nation}}</td>
+                    <td>{{i["ID Year"]}}</td>
+                    <td>{{i.Population}}</td>
+                    <td>{{i["Slug Nation"]}}</td>
+                </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
